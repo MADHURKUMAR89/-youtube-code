@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+
+    scanf("%d", &b);
+
+    for (a = b; a >= 1; a--) {
+        for (c = 1; c <= a; c++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
